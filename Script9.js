@@ -27,3 +27,8 @@ const houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw'];
 houses.push('Slytherin');
 houses.pop();
 console.log(houses);
+
+const spells = ['Alohomora', 'Lumos', 'Nox'];
+spells.unshift('Accio');
+spells.shift();
+console.log(spells);
