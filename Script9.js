@@ -11,3 +11,5 @@ const characterName = 'Hermione';
 console.log (characterName.toLowerCase ())
 console.log (characterName.toUpperCase ())
 
+const spell = 'Expelliarmus'
+console.log(spell.trim)
