@@ -12,7 +12,7 @@ console.log (characterName.toLowerCase ())
 console.log (characterName.toUpperCase ())
 
 const spell = 'Expelliarmus'
-console.log(spell.trim)
+console.log(spell.trim())
 
 const quote = 'I solemnly swear that I am up to no good'; 
 console.log (quote.slice(11, 17));
@@ -20,3 +20,5 @@ console.log (quote.slice(11, 17));
 const LastName = 'Weasly';
 console.log ('Ron'.concat(' ', LastName));
 
+let sentence = 'Draco is a good wizard';
+console.log (sentence.replace ('good', "bad"));
