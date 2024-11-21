@@ -15,4 +15,8 @@ const spell = 'Expelliarmus'
 console.log(spell.trim)
 
 const quote = 'I solemnly swear that I am up to no good'; 
-console.log (quote.slice(11, 17))
+console.log (quote.slice(11, 17));
+
+const LastName = 'Weasly';
+console.log ('Ron'.concat(' ', LastName));
+
