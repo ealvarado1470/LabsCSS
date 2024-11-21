@@ -37,3 +37,6 @@ const professors = ['Dumbledore', 'McGonagall', 'Snape', 'Hagrid'];
 const selectedProfessors = professors.slice (1, 3);
 console.log(selectedProfessors);
 
+const students = ['Neville', 'Seamus', 'Dean', 'Paravati'];
+students.splice (1, 2);
+console.log(students);
