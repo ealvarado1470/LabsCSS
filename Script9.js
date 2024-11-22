@@ -48,3 +48,5 @@ const wizards = ['Harry', 'Hermione', 'Ron'];
 wizards.push('Luna', 'Draco');
 console.log(wizards);
 
+const message = 'Welcome to Hogwarts School of Withcraft and Wizardry';
+console.log(message.slice(11, 19).concat('Castle'));
