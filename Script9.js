@@ -40,3 +40,6 @@ console.log(selectedProfessors);
 const students = ['Neville', 'Seamus', 'Dean', 'Paravati'];
 students.splice (1, 2);
 console.log(students);
+
+const phrase = 'Mischief Managed';
+console.log(phrase.trim().toLowerCase().concat(' - Harry'));
